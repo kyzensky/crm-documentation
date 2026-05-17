@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="fDSIhNZpV7RLvZDlN3il">
-    <mxGraphModel dx="2739" dy="1516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1205" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,12 @@
         <mxCell id="z3Ht8LPgizAPvXbHG2fk-12" edge="1" parent="1" source="z3Ht8LPgizAPvXbHG2fk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="z3Ht8LPgizAPvXbHG2fk-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z3Ht8LPgizAPvXbHG2fk-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="2. Счета&lt;div&gt;(менеджер создает счет и вносит необходимую информацию)&lt;/div&gt;" vertex="1">
+        <mxCell id="xPEUD1rr_eLUinkeHIa2-1" connectable="0" parent="z3Ht8LPgizAPvXbHG2fk-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Если менеджер проставил статус &quot;Не оплачен&quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.0469" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Ht8LPgizAPvXbHG2fk-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="2. Счета&lt;div&gt;(менеджер создает счет (проставляется статус &quot;Новый&quot;) и вносит необходимую информацию)&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="190" x="318" y="830" as="geometry" />
         </mxCell>
         <mxCell id="z3Ht8LPgizAPvXbHG2fk-14" edge="1" parent="1" source="z3Ht8LPgizAPvXbHG2fk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="z3Ht8LPgizAPvXbHG2fk-13">
@@ -29,7 +34,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z3Ht8LPgizAPvXbHG2fk-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="3. Счета&lt;div&gt;(координатор заходит в раздел счетов и видит все счета по которым нужно проверить оплаты)&lt;/div&gt;" vertex="1">
+        <mxCell id="z3Ht8LPgizAPvXbHG2fk-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="3. Счета&lt;div&gt;(координатор видит все не оплаченные счета, по которым нужно проверить оплаты в банках)&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="190" x="318" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="z3Ht8LPgizAPvXbHG2fk-18" edge="1" parent="1" source="z3Ht8LPgizAPvXbHG2fk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="z3Ht8LPgizAPvXbHG2fk-17">
@@ -48,7 +53,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z3Ht8LPgizAPvXbHG2fk-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="4. Счета&lt;div&gt;(менеджер прикрепляет все необходимые документы к счету и создает заявки счета с нужными типами услуг)&lt;/div&gt;" vertex="1">
+        <mxCell id="z3Ht8LPgizAPvXbHG2fk-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="4. Счета&lt;div&gt;(менеджер видит все оплаченные счета, далее прикрепляет необходимые документы к счету и создает заявки в счете с нужными типами услуг)&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="190" x="318" y="1370" as="geometry" />
         </mxCell>
         <mxCell id="z3Ht8LPgizAPvXbHG2fk-16" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="5. Заявки&lt;div&gt;(методист видит все заявки, которые висят на нем и выполняет их)&lt;/div&gt;" vertex="1">
